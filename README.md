@@ -8,5 +8,16 @@ This project is a simple real-time **face detection** application using **Python
 - Real-time face detection using Haar Cascades
 - Press `a` key to exit the video window
 
+How It Works?
+Loads a Haar Cascade XML file pre-trained for face detection.
 
+Uses cv2.VideoCapture(0) to access your system's webcam.
+
+Processes each frame in real time.
+
+Converts each frame to grayscale for faster processing.
+
+Uses detectMultiScale() to detect faces.
+
+Draws rectangles over detected face regions.
 
